@@ -37,11 +37,11 @@ USB GPS puck -> gpsd -> socat bridge -> GeoClue2 -> Pure Maps
 - Debian 13 (Trixie), Wayland with labwc
 - gpsd, socat, GeoClue2 (+ demo agent), mako (notification daemon)
 - OSM Scout Server and Pure Maps (Flatpak, user install)
-- Offline map data: Washington State (see [docs/maps.md](docs/maps.md))
+- Offline map data: Washington State (see [docs/04-offline-maps.md](docs/04-offline-maps.md))
 
 ## Setup
 
-Step-by-step rebuild notes live in `docs/`:
+Start with the [build guide](docs/build-guide.md), which walks through the steps in order. [Design decisions](docs/design-decisions.md) explains why these pieces were chosen. Detailed notes live in `docs/`:
 
 1. `docs/01-os-and-display.md` - OS, 800x480 display config
 2. `docs/02-gps.md` - gpsd and the GPS puck
